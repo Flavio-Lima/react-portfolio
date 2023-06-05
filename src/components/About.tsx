@@ -76,7 +76,10 @@ export function About() {
 
           </div>
 
-          <div className="absolute -left-2 -top-4 h-24 w-20 rounded-lg bg-gray-600 bg-[url(./assets/images/perfil3.png)] bg-cover bg-center md:-left-12 md:-top-12 md:h-72 md:w-56"></div>
+          <div
+            className="absolute -left-2 -top-4 h-24 w-20 rounded-lg bg-gray-600  bg-cover bg-center md:-left-12 md:-top-12 md:h-72 md:w-56"
+            style={{ backgroundImage: `url('images/perfil.png')` }}
+          ></div>
         </div>
       </div>
     </section>
