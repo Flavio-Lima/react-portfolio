@@ -1,4 +1,20 @@
+import { HiComputerDesktop, HiCommandLine } from 'react-icons/hi2'
+
 export function Services() {
+  //parei em 1:46:08
+  const services = [
+    {
+      title: "Web",
+      description: "Desenvolvimento de sites e sistemas web estáticos e dinâmicos com React.js, Next.js, HTML5 e CSS3",
+      icon: <HiComputerDesktop className="h-12 w-12" />,
+    },
+    {
+      title: "Sistemas",
+      description: "Desenvolvimento de sistemas e APIs REST com Node.js.",
+      icon: <HiCommandLine className="h-12 w-12" />,
+    }
+  ]
+
   return (
     <section className="container mx-auto my-12 max-w-4xl p-4">
       <div className="p-4 text-center">
@@ -14,6 +30,18 @@ export function Services() {
         <p className="text-sm text-gray-600">
           Posso atender uma gama completa de serviços, do front-end ao back-end com banco de dados e sistemas.
         </p>
+      </div>
+
+      <div className="mt-6 flex flex-col gap-2 md:flex-row ">
+        {services.map((service, index) => (
+            <div className='basis-1/2 rounded-lg bg-blue-700 p-4 text-white' key={`service-${index}`}>
+
+              <div className='mb-2'>{service.icon}</div>
+              <h3 className='text-xl font-bold'>{service.title}</h3>
+              <p className='text-sm'>{service.description}</p>
+
+            </div>
+          ))}
       </div>
     </section>
   )
