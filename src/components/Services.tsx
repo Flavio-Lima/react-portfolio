@@ -1,7 +1,6 @@
 import { HiComputerDesktop, HiCommandLine } from 'react-icons/hi2'
 
 export function Services() {
-  //parei em 1:46:08
   const services = [
     {
       title: "Web",
