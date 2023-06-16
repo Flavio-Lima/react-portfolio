@@ -6,7 +6,7 @@ export function Hero() {
       <div className="container mx-auto max-w-4xl p-2 py-12 flex">
         <div>
           <h1 className="mb-6 text-center md:text-left">
-            <span className="font-handwriting block text-3xl text-center md:text-left">Olá, me chamo</span>
+            <span className="font-handwriting block text-3xl text-center md:text-left">Olá, sou</span>
             <span className="font-headline text-5xl font-semibold">Flávio </span>
             <span className="font-headline text-5xl font-light text-blue-400">Lima</span>
           </h1>
@@ -21,9 +21,9 @@ export function Hero() {
           </p>
 
           <div className="flex items-center justify-center md:justify-start gap-2">
-            <a href="#" className="underline font-bold text-white">Fale Comigo</a>
+            <a href="https://wa.me/5522992539922?text=Ol%C3%A1..." className="underline font-bold text-white">Fale Comigo</a>
             <span className="italic text-gray-500">ou</span>
-            <a href="#" className="button text-gray-600 hover:text-gray-900 flex items-center gap-2">
+            <a href="CV_Flávio_Lima_Desenvolvedor.pdf" className="button text-gray-600 hover:text-gray-900 flex items-center gap-2" download>
               <HiDownload />
               Baixe meu CV
             </a>

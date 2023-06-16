@@ -4,43 +4,45 @@ export function Projects() {
   const projects =
   [
     {
-      title: "Projeto 1",
-      description: "Descrição do projeto 1",
-      image:
-        "https://images.unsplash.com/photo-1487014679447-9f8336841d58?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1605&q=80",
-      link: "#",
+      title: "API GitHub",
+      description: 'Um projeto que consome a API do GitHub. O objetivo é mostrar como é possível interagir com a API do GitHub e exibir informações de usuários e repositórios. Pode pesquisar o meu caso queira "Flavio-Lima"',
+      image: "images/1.jpeg",
+      link: "https://flavio-lima.github.io/api-github-dev/",
       colSpan: "col-span-1",
     },
     {
-      title: "Projeto 2",
-      description: "Descrição do projeto 2",
-      image:
-        "https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fHdlYnNpdGVzfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
-      link: "#",
-      colSpan: "col-span-1 md:col-span-2",
-    },
-    {
-      title: "Projeto 3",
-      description: "Descrição do projeto 3",
-      image:
-        "https://media.istockphoto.com/id/1305995602/photo/responsive-floating-responsive-design.jpg?b=1&s=170667a&w=0&k=20&c=uFqBz27v_B0UxcslnvZxd9c0D9eJAef7veRZf6b-v-A=",
-      link: "#",
+      title: "Ramos Marcenaria",
+      description: "site para exposição dos trabalhos de uma marcenaria.",
+      image: "images/2.png",
+      link: "https://flavio-lima.github.io/ramos_marcenaria/index.html",
       colSpan: "col-span-1",
     },
     {
-      title: "Projeto 4",
-      description: "Descrição do projeto 4",
-      image:
-        "https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8Y29kaW5nfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
-      link: "#",
+      title: "Venda Automotiva",
+      description: "Um site para exposição e venda de carros. Com o objetivo de fornecer uma plataforma online onde os usuários possam visualizar e obter informações sobre os veículos disponíveis para venda. Veja os detalhes da Caravan.",
+      image: "images/3.png",
+      link: "https://flavio-lima.github.io/VendaAutomovel/index.html",
       colSpan: "col-span-1",
     },
     {
-      title: "Projeto 5",
-      description: "Descrição do projeto 5",
-      image:
-        "https://images.unsplash.com/photo-1551650975-87deedd944c3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8bW9iaWxlJTIwYXBwfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
-      link: "#",
+      title: "Todo",
+      description: "Este é um projeto simples de lista de tarefas (TODO). Ele permite que os usuários gerenciem suas tarefas diárias, marcando como concluídas e removendo tarefas da lista.",
+      image: "images/4.png",
+      link: "https://flavio-lima.github.io/TODO/",
+      colSpan: "col-span-1",
+    },
+    {
+      title: "Consultório Odontológico",
+      description: "Esta é uma Landing page fictícia, responsiva desenvolvida para um consultório odontológico.",
+      image: "images/5.png",
+      link: "https://flavio-lima.github.io/Dentista/",
+      colSpan: "col-span-1",
+    },
+    {
+      title: "Gerador de senhas",
+      description: "Este é um projeto simples que consiste em um gerador de senhas aleatórias e fortes. O objetivo é fornecer uma ferramenta fácil de usar para gerar senhas seguras, que possam ser utilizadas em diversos contextos.",
+      image: "images/6.png",
+      link: "https://flavio-lima.github.io/password_generator/",
       colSpan: "col-span-1",
     },
   ]
@@ -68,7 +70,7 @@ export function Projects() {
                 style={{ backgroundImage: `url('${project.image}')` }}
               >
 
-                <div className="absolute inset-0 flex h-full w-full flex-col items-center justify-center rounded-lg bg-blue-600 text-white opacity-0 transition-opacity group-hover:opacity-100">
+                <div className="px-1 text-center absolute inset-0 flex h-full w-full flex-col items-center justify-center rounded-lg bg-blue-600 text-white opacity-0 transition-opacity group-hover:opacity-100">
                   <h4 className="font-headline text-lg font-semibold">
                     {project.title}
                   </h4>

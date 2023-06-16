@@ -41,7 +41,7 @@ export function Contact() {
     {
       name: "WhatsApp",
       description: "+55 22 99253-9922",
-      link: "https://wa.me/5512982041640?text=Olá...",
+      link: "https://wa.me/5522992539922?text=Ol%C3%A1...",
       icon: <FaWhatsapp className="h-10 w-10" />,
     },
     {
@@ -59,7 +59,7 @@ export function Contact() {
   ]
 
   return (
-    <section id="contact" className="bg-blue-700 text-white">
+    <section id="contact" className="bg-blue-700 text-white  rounded-tl-[80px] bg-gradient-to-t md:rounded-tl-[180px]">
       <div className="container mx-auto max-w-4xl p-4 py-8">
         <div className="mb-6">
           <h2 className="z-50 mb-2">
