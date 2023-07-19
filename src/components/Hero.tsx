@@ -23,7 +23,7 @@ export function Hero() {
           <div className="flex items-center justify-center md:justify-start gap-2">
             <a href="https://wa.me/5522992539922?text=Ol%C3%A1..." className="underline font-bold text-white">Fale Comigo</a>
             <span className="italic text-gray-500">ou</span>
-            <a href="CV_Flávio_Lima_Desenvolvedor.pdf" className="button text-gray-600 hover:text-gray-900 flex items-center gap-2" download>
+            <a href="Cv_Flávio_Lima.pdf" className="button text-gray-600 hover:text-gray-900 flex items-center gap-2" download>
               <HiDownload />
               Baixe meu CV
             </a>
